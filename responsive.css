@@ -1,19 +1,21 @@
 @media (min-width: 1920px) {
-  ul.navbar-nav {
-    margin: 0rem 0rem 0rem 0rem;
-  }
-  #carouselExampleCaptions {
-    padding: 0rem 0rem 0rem 0rem;
-  }
-  li.nav-item {
-    margin: 0.5rem 1.5rem 0rem 0.3rem;
-}
   .work-right-text {
     padding: 150px 150px;
   }
 }
 
-
+@media (min-width: 992px) and (max-width: 1169px) {
+  .slider-content {
+    padding: 146px 0;
+  }
+  .work-right-text {
+    padding: 40px 0;
+  }
+  .work-right-text h2 {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
 #anu{
   font-size: 60px;
   font: bolder;
@@ -25,19 +27,9 @@
   color: white;
 }
 @media (min-width: 768px) and (max-width: 991px) {
-  ul.navbar-nav {
-    margin: 0rem 0rem 0rem 0rem;
-  }
-  #carouselExampleCaptions {
-    padding: 0rem 0rem 0rem 0rem;
-  }
-  li.nav-item {
-    margin: 0.5rem 1.5rem 0rem 0.3rem;
-  }
   .main-menu ul.navbar-nav li {
     display: inline-block;
     padding: 0 8px;
-    margin: 0rem 0rem 0rem 0rem;
   }
   .layer-1-1 h2 {
     font-size: 24px;
@@ -130,15 +122,7 @@
 }
 
 @media (max-width: 767px) {
-  ul.navbar-nav {
-    margin: 0rem 0rem 0rem 0rem;
-  }
-  #carouselExampleCaptions {
-    padding: 0rem 0rem 0rem 0rem;
-  }
-  li.nav-item {
-    margin: 0.5rem 1.5rem 0rem 0.3rem;
-  }
+
   .header-area {
     height: 60px !important;
     background: #000;
@@ -290,16 +274,7 @@
   }
 }
 
-@media only screen and (min-width: 480px) and (max-width: 576px) {
-  ul.navbar-nav {
-    margin: 0rem 0rem 0rem 0rem;
-  }
-  #carouselExampleCaptions {
-    padding: 0rem 0rem 0rem 0rem;
-  }
-  li.nav-item {
-    margin: 0.5rem 1.5rem 0rem 0.3rem;
-  }
+@media only screen and (min-width: 480px) and (max-width: 767px) {
   .submitbtn {
     float: none;
     width: 99.8%;
@@ -321,77 +296,5 @@
   }
   .tab-menu ul.nav li a {
     padding: 8px 20px;
-  }
-}
-
-@media (min-width: 576px) and (max-width: 988px) {
-  ul.navbar-nav {
-    margin: 2rem 0rem 0rem 1rem;
-  }
-  #carouselExampleCaptions {
-    padding: 0rem 0rem 0rem 0rem;
-  }
-  li.nav-item {
-    margin: 0.5rem 1.5rem 0rem 0.3rem;
-  }
-}
-
-@media (min-width: 988px) and (max-width: 992px) {
-  ul.navbar-nav {
-    margin: 2rem 0rem 0rem 1rem;
-  }
-  #carouselExampleCaptions {
-    padding: 0rem 0rem 0rem 0rem;
-  }
-  li.nav-item {
-    margin: 0.5rem 1.5rem 0rem 0.3rem;
-  }
-}
-
-@media (min-width: 992px) and (max-width: 1024px) {
-  ul.navbar-nav {
-    margin: 0rem 0rem 0rem 4rem;
-  }
-  #carouselExampleCaptions {
-    padding: 0rem 0rem 0rem 0rem;
-  }
-  li.nav-item {
-    margin: 0.5rem 1.5rem 0rem 0.3rem;
-  }
-
-}
-@media (min-width: 1233px) and (max-width: 1253px) {
-  ul.navbar-nav {
-    margin: 0rem 0rem 0rem 21rem;
-  }
-  #carouselExampleCaptions {
-    padding: 0rem 0rem 0rem 0rem;
-  }
-  li.nav-item {
-    margin: 0.5rem 1.5rem 0rem 0.3rem;
-  }
-
-}
-@media (min-width: 1024px) and (max-width: 1233px) {
-  ul.navbar-nav {
-    margin: 0rem 0rem 0rem 8rem;
-  }
-  #carouselExampleCaptions {
-    padding: 0rem 0rem 0rem 0rem;
-  }
-  li.nav-item {
-    margin: 0.5rem 1.5rem 0rem 0.3rem;
-  }
-
-}
-@media (min-width: 1600px) {
-  ul.navbar-nav {
-    margin: 0rem 0rem 0rem 14rem;
-  }
-  #carouselExampleCaptions {
-    padding: 0rem 0rem 0rem 0rem;
-  }
-  li.nav-item {
-    margin: 0.5rem 1.5rem 0rem 0.3rem;
   }
 }
