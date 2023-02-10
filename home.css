@@ -397,7 +397,7 @@
 }
 .site-footer
 {
-  background-color:#67A;
+  background-color:rgb(207, 203, 236);
   padding:45px 0 20px;
   font-size:15px;
   line-height:24px;
@@ -405,7 +405,7 @@
 }
 .site-footer hr
 {
-  border-top-color:#bbb;
+  border-top-color:#090909;
   opacity:0.5
 }
 .site-footer hr.small
@@ -476,18 +476,22 @@
 }
 @media (max-width:991px)
 {
-  .site-footer [class^=col-]
+  .site-footer [class^=col-sm-12]
   {
-    margin-bottom:30px
+    margin-bottom:30px;
+    margin-left: 3px;
   }
 }
 @media (max-width:767px)
 {
   .site-footer
   {
-    padding-bottom:0
+    padding-bottom:30px;
+    margin-bottom: 3px;
+    margin-left: 4px;
+    text-align: center;
   }
-  .site-footer .copyright-text,.site-footer .social-icons
+  .site-footer .copyright-text .site-footer .social-icons
   {
     text-align:center
   }
