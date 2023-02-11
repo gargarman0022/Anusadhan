@@ -774,4 +774,6 @@ header{
 padding-top: 102px;
 }
 
-
+.poster{
+  min-width: 18% !important;
+}
