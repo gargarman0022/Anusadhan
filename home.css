@@ -1,4 +1,4 @@
-@media (min-width: 1920px) {
+/* @media (min-width: 1920px) {
   ul.navbar-nav {
     margin: 0rem 0rem 0rem 0rem;
   }
@@ -7,12 +7,23 @@
   }
   li.nav-item {
     margin: 0.5rem 1.5rem 0rem 0.3rem;
+
 }
   .work-right-text {
     padding: 150px 150px;
   }
-}
+} */
 
+/* li.nav-item {
+  margin-left: 100px;
+} */
+
+.About-Event>.heading {
+  margin: 0 0 2% 0px;
+  font-size: 4rem;
+  border-bottom: 3px solid #222;
+  width: 36%;
+}
 
 #anu{
   font-size: 60px;
