@@ -1,3 +1,4 @@
+
 /* @media (min-width: 1920px) {
   ul.navbar-nav {
     margin: 0rem 0rem 0rem 0rem;
@@ -7,10 +8,12 @@
   }
   li.nav-item {
     margin: 0.5rem 1.5rem 0rem 0.3rem;
+
 }
   .work-right-text {
     padding: 150px 150px;
   }
+
 } */
 
 /* li.nav-item {
@@ -613,6 +616,7 @@ margin: 0 !important;
     color: azure;
 }
 ul.navbar-nav{                                     
+
   margin: 0rem 0rem 0rem 15rem;
 }
 .bg-black {
@@ -654,6 +658,7 @@ li.nav-item{
 }
 .nav-link {
     padding-bottom: 10px; 
+
     background-color: rgb(80 80 203 / 71%);
         border-radius: 8px;
         color: antiquewhite !important;
@@ -787,3 +792,4 @@ header{
 .sticky + .content {
 padding-top: 102px;
 }
+
