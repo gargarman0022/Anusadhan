@@ -1,4 +1,5 @@
-@media (min-width: 1920px) {
+
+/* @media (min-width: 1920px) {
   ul.navbar-nav {
     margin: 0rem 0rem 0rem 0rem;
   }
@@ -7,12 +8,24 @@
   }
   li.nav-item {
     margin: 0.5rem 1.5rem 0rem 0.3rem;
+
 }
   .work-right-text {
     padding: 150px 150px;
   }
-}
 
+} */
+
+/* li.nav-item {
+  margin-left: 100px;
+} */
+
+.About-Event>.heading {
+  margin: 0 0 2% 0px;
+  font-size: 4rem;
+  border-bottom: 3px solid #222;
+  width: 36%;
+}
 
 #anu{
   font-size: 60px;
@@ -405,7 +418,7 @@
 }
 .site-footer hr
 {
-  border-top-color:#bbb;
+  border-top-color:#090909;
   opacity:0.5
 }
 .site-footer hr.small
@@ -476,18 +489,22 @@
 }
 @media (max-width:991px)
 {
-  .site-footer [class^=col-]
+  .site-footer [class^=col-sm-12]
   {
-    margin-bottom:30px
+    margin-bottom:30px;
+    margin-left: 3px;
   }
 }
 @media (max-width:767px)
 {
   .site-footer
   {
-    padding-bottom:0
+    padding-bottom:30px;
+    margin-bottom: 3px;
+    margin-left: 4px;
+    text-align: center;
   }
-  .site-footer .copyright-text,.site-footer .social-icons
+  .site-footer .copyright-text .site-footer .social-icons
   {
     text-align:center
   }
@@ -599,7 +616,8 @@ margin: 0 !important;
     color: azure;
 }
 ul.navbar-nav{                                     
-  margin: 0rem 0rem 0rem 8rem;
+
+  margin: 0rem 0rem 0rem 15rem;
 }
 .bg-black {
     background-color: #000;
@@ -640,7 +658,8 @@ li.nav-item{
 }
 .nav-link {
     padding-bottom: 10px; 
-    background-color: rgba(117, 117, 200, 0.71);
+
+    background-color: rgb(80 80 203 / 71%);
         border-radius: 8px;
         color: antiquewhite !important;
 }
@@ -774,6 +793,3 @@ header{
 padding-top: 102px;
 }
 
-.poster{
-  min-width: 18% !important;
-}
