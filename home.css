@@ -23,7 +23,7 @@
 .About-Event>.heading {
   margin: 0 0 2% 0px;
   font-size: 4rem;
-  border-bottom: 3px solid #222;
+  /* border-bottom: 3px solid #222; */
   width: 36%;
 }
 
@@ -731,7 +731,7 @@ li.nav-item{
     /* flex-wrap: wrap; */
     justify-content: center;
     align-items: center;
-    gap:6%;
+    gap:4%;
 }
 
 @media(max-width:1000px)
@@ -776,8 +776,16 @@ align-items: center;
 @media (max-width:800px) {
     .poster
     {
-        width: 90%;
+        width: 60%;
     }
+}
+
+@media (max-width:800px) {
+  .about > p
+  {
+      margin-left:8%;
+      margin-right:4%;
+  }
 }
 
 nav.navbar.navbar-expand-lg {
