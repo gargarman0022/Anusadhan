@@ -1,0 +1,73 @@
+body {
+    background: rgb(255, 255, 255);
+}
+.carousel{
+    perspective: 300px;
+    top: -40px;
+}
+.carousel .carousel-item{
+    width: 450px;
+}
+.card {
+    position: relative;
+    margin: -6.5rem 0 1rem 35px;
+    background-color: #fff;
+    width: 375px;
+    height: 370px;
+    color: #262626;
+    border-radius: 50px;
+    box-shadow: 0 4px 12px 4px rgb(0 0 0 / 20%);
+}
+
+.card:hover{
+    color: #6353b5;
+    box-shadow: 0 8px 14px 8px rgb(0 0 0 / 50%);
+  
+}
+.img-area img {
+	border-radius: 50%;
+	border: 7px solid #fff;
+	margin-top: -80px;
+}
+
+.img-area {
+  text-align: center;
+}
+.img-area img {
+  width: 30%;
+}
+.main-text {
+	padding: 8px 0;
+	text-align: center;
+}
+.main-text h2 {
+	font-weight: 500;
+	font-size: 20px;
+	margin: 0 0 20px;
+	font-family: 'Alfa Slab One', cursive;
+}
+
+.main-text p{
+  font-size: 16px;
+  padding: 0 35px;
+}
+
+#Events{
+	font-size: 40px;
+  font-weight: 450;
+  font-family: 'Raleway', sans-serif;
+  color: #444;
+}
+
+div#Events {
+    display: block;
+    text-align: center;
+}
+
+#E {
+  margin: 0px 0px 0px 0px;
+}
+#E1 {
+  margin-top: -100px;
+
+}

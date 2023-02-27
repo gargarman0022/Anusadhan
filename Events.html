@@ -1,27 +1,82 @@
 <!DOCTYPE html>
+<!-- divinectorweb.com -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <title>Testimonial carousel using materialize css</title>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="card mb-3" style="max-width: 540px;">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img src="..." class="img-fluid rounded-start" alt="...">
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-            </div>
-          </div>
+    <b>
+        <div id="Events">
+        <p id="E">
+            Events
+        </p>
+        <br>
+        <p id="E1">
+            ___
+        </p>
+    </div>
+    </b>
+    <div class="profile">
+        <div class = "carousel">
+            <a class="carousel-item" href="https://docs.google.com/forms/d/e/1FAIpQLSc_8LaGZQ7tlhEJLcbqWocL9SgWYJUXbRffN4EECajE5myKAQ/viewform?usp=sf_link">
+                <div class="card">
+                    <div class="img-area"><img src="image/a2.jpg" alt=""></div>
+                    <div class="main-text">
+                        <h2>CALL FOR PAPER</h2>
+                        <p>The Annual Congress provides a forum for presentation of research papers</p>
+                    </div>
+                </div>
+            </a>
+            <a class="carousel-item" href="https://docs.google.com/forms/d/e/1FAIpQLSc_8LaGZQ7tlhEJLcbqWocL9SgWYJUXbRffN4EECajE5myKAQ/viewform?usp=sf_link">
+                <div class="card">
+                    <div class="img-area"><img src="image/a2.jpg" alt=""></div>
+                    <div class="main-text">
+                        <h2>Person two</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut cupiditate recusandae quam amet enim voluptates alias accusantium sapiente! Adipisci vero fugiat aliquid explicabo quas eius!</p>
+                    </div>
+                </div>
+            </a>
+            <a class="carousel-item" href="https://docs.google.com/forms/d/e/1FAIpQLSc_8LaGZQ7tlhEJLcbqWocL9SgWYJUXbRffN4EECajE5myKAQ/viewform?usp=sf_link">
+                <div class="card">
+                    <div class="img-area"><img src="image/a3.jpg" alt=""></div>
+                    <div class="main-text">
+                        <h2>Person three</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut cupiditate recusandae quam amet enim voluptates alias accusantium sapiente! Adipisci vero fugiat aliquid explicabo quas eius!</p>
+                    </div>
+                </div>
+            </a>
+            <a class="carousel-item" href="https://docs.google.com/forms/d/e/1FAIpQLSc_8LaGZQ7tlhEJLcbqWocL9SgWYJUXbRffN4EECajE5myKAQ/viewform?usp=sf_link">
+                <div class="card">
+                    <div class="img-area"><img src="image/a1.jpg" alt=""></div>
+                    <div class="main-text">
+                        <h2>Person four</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut cupiditate recusandae quam amet enim voluptates alias accusantium sapiente! Adipisci vero fugiat aliquid explicabo quas eius!</p>
+                    </div>
+                </div>
+            </a>
+            <a class="carousel-item" href="https://docs.google.com/forms/d/e/1FAIpQLSc_8LaGZQ7tlhEJLcbqWocL9SgWYJUXbRffN4EECajE5myKAQ/viewform?usp=sf_link">
+                <div class="card">
+                    <div class="img-area"><img src="image/a1.jpg" alt=""></div>
+                    <div class="main-text">
+                        <h2>Person five</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut cupiditate recusandae quam amet enim voluptates alias accusantium sapiente! Adipisci vero fugiat aliquid explicabo quas eius!</p>
+                    </div>
+                </div>
+            </a>
         </div>
-      </div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    
+    <script>
+         $(document).ready(function(){
+            $('.carousel').carousel();
+          });	
+    </script>
 </body>
 </html>
