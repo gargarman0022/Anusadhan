@@ -37,6 +37,18 @@
   font: bolder;
   color: white;
 }
+
+.heading-card{
+  margin-bottom: 25px;
+  text-align: center;
+  font-size: 70px;
+  margin-left: 550px;
+  border-bottom: 2px solid black;
+  width: 28%;
+  
+}
+
+
 @media (min-width: 768px) and (max-width: 991px) {
   ul.navbar-nav {
     margin: 0rem 0rem 0rem 0rem;
@@ -337,6 +349,7 @@
   }
 }
 
+
 @media (min-width: 576px) and (max-width: 988px) {
   ul.navbar-nav {
     margin: 2rem 0rem 0rem 1rem;
@@ -507,6 +520,15 @@
   .site-footer .copyright-text .site-footer .social-icons
   {
     text-align:center
+  }
+}
+
+@media (max-width:767px)
+{
+  .card 
+  {
+    margin-bottom:30px;
+    margin-left: 40px;
   }
 }
 .social-icons
