@@ -48,7 +48,13 @@
     /* padding: 2em 2em 2em 2em; */
     /* border-radius: 20px 0px 0px 20px;; */
   }
-
+  .links{
+    color: red;
+    text-decoration: none;
+  }
+  .links:hover{
+    color: blue;
+  }
   #news {
 
     margin-left: 1%;
