@@ -723,6 +723,14 @@ li.nav-item{
   }
 }
 
+  .about-heading{
+    font-size: 45px;
+    border-bottom: 2px solid black;
+    width: 30%;
+    text-align: center;
+    margin-left: 350px;
+  }
+
 
 .about{
 
