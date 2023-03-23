@@ -18,13 +18,13 @@
 
 .gallery>.container .heading{
   width: 50%;
-  padding-bottom: 50px;
+  /* padding-bottom: 50px; */
 }
 .gallery>.container .heading h3{
   font-size: 3em;
   font-weight: bolder;
-  padding-bottom: 10px;
-  border-bottom: 3px solid #222;
+  /* padding-bottom: 10px; */
+  /* border-bottom: 3px solid #222; */
 }
 
 .gallery>.container .heading h3 span{
