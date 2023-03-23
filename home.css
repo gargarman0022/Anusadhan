@@ -52,12 +52,14 @@
 @media (min-width: 768px) and (max-width: 991px) {
   ul.navbar-nav {
     margin: 0rem 0rem 0rem 0rem;
+    justify-content: center !important;
   }
   #carouselExampleCaptions {
     padding: 0rem 0rem 0rem 0rem;
   }
   li.nav-item {
     margin: 0.5rem 1.5rem 0rem 0.3rem;
+    padding: 0.5rem 4rem 0.5rem 4rem;
   }
   .main-menu ul.navbar-nav li {
     display: inline-block;
@@ -157,12 +159,14 @@
 @media (max-width: 767px) {
   ul.navbar-nav {
     margin: 0rem 0rem 0rem 0rem;
+    justify-content: center;
   }
   #carouselExampleCaptions {
     padding: 0rem 0rem 0rem 0rem;
   }
   li.nav-item {
     margin: 0.5rem 1.5rem 0rem 0.3rem;
+    padding: 0.5rem 4rem 0.5rem 4rem;
   }
   .header-area {
     height: 60px !important;
@@ -318,12 +322,14 @@
 @media only screen and (min-width: 480px) and (max-width: 576px) {
   ul.navbar-nav {
     margin: 0rem 0rem 0rem 0rem;
+    justify-content: center;
   }
   #carouselExampleCaptions {
     padding: 0rem 0rem 0rem 0rem;
   }
   li.nav-item {
     margin: 0.5rem 1.5rem 0rem 0.3rem;
+    padding: 0.5rem 4rem 0.5rem 4rem;
   }
   .submitbtn {
     float: none;
@@ -353,51 +359,51 @@
 @media (min-width: 576px) and (max-width: 988px) {
   ul.navbar-nav {
     margin: 2rem 0rem 0rem 1rem;
+    justify-content: center;
   }
   #carouselExampleCaptions {
     padding: 0rem 0rem 0rem 0rem;
   }
   li.nav-item {
     margin: 0.5rem 1.5rem 0rem 0.3rem;
+    padding: 0.5rem 4rem 0.5rem 4rem;
   }
 }
 
 @media (min-width: 988px) and (max-width: 992px) {
   ul.navbar-nav {
     margin: 2rem 0rem 0rem 1rem;
+    justify-content: center;
   }
   #carouselExampleCaptions {
     padding: 0rem 0rem 0rem 0rem;
   }
   li.nav-item {
     margin: 0.5rem 1.5rem 0rem 0.3rem;
+    padding: 0.5rem 4rem 0.5rem 4rem;
   }
 }
 
-@media (min-width: 992px) and (max-width: 1024px) {
+@media (min-width: 992px) and (max-width: 1062px) {
   ul.navbar-nav {
-    margin: 0rem 0rem 0rem 4rem;
+    margin:0rem 5rem -1rem 0rem!important;
+    justify-content: center;
   }
   #carouselExampleCaptions {
     padding: 0rem 0rem 0rem 0rem;
   }
   li.nav-item {
-    margin: 0.5rem 1.5rem 0rem 0.3rem;
+    margin: 0rem -1.5rem 1rem 1.5rem !important;
   }
-
+  .navbar-brand {
+    margin-left: 0%;
 }
-@media (min-width: 1233px) and (max-width: 1253px) {
-  ul.navbar-nav {
-    margin: 0rem 0rem 0rem 21rem;
-  }
-  #carouselExampleCaptions {
-    padding: 0rem 0rem 0rem 0rem;
-  }
-  li.nav-item {
-    margin: 0.5rem 1.5rem 0rem 0.3rem;
-  }
-
+.nav-link {
+  background-color: rgb(255 255 255 / 71%) !important;
+  color: black;
 }
+}
+
 @media (min-width: 1024px) and (max-width: 1233px) {
   ul.navbar-nav {
     margin: 0rem 0rem 0rem 8rem;
@@ -640,6 +646,7 @@ margin: 0 !important;
 ul.navbar-nav{                                     
 
   margin: 0rem 0rem 0rem 15rem;
+  
 }
 .bg-black {
     background-color: #000;
@@ -681,9 +688,9 @@ li.nav-item{
 .nav-link {
     padding-bottom: 10px; 
 
-    background-color: rgb(80 80 203 / 71%);
+    background-color: rgb(80 80 203 / 71%) ;
         border-radius: 8px;
-        color: antiquewhite !important;
+        color: rgb(255, 255, 255);
 }
 
 .v-line {
@@ -722,14 +729,6 @@ li.nav-item{
       align-items: left;
   }
 }
-
-  .about-heading{
-    font-size: 45px;
-    border-bottom: 2px solid black;
-    width: 30%;
-    text-align: center;
-    margin-left: 350px;
-  }
 
 
 .about{
@@ -799,7 +798,12 @@ align-items: center;
 nav.navbar.navbar-expand-lg {
   opacity: 100%;
   z-index: 3;
-  background-color: none;
+  background-color: white;
+}
+
+ul.navbar-nav {
+  justify-content: right;
+  margin: 1rem 0rem 0rem 0rem;
 }
 
 .carousel-inner {
