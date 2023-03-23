@@ -23,18 +23,64 @@
 
 <body>
   <header id="myHeader">
-    <nav class="navbar navbar-expand-lg" id="navbar">
+    <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
-        <!-- comment <a class="logo">
-            <img src="slider0.jpg" width="80" height="60">
-          </a> -->
+        <!-- <a class="logo">
+          <img src="slider0.jpg" width="80" height="60">
+        </a> -->
         <a class="navbar-brand" href="#"><img src="slider0.jpg" width="120" height=auto></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#gallery">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Community/Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sponsorships</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Register.html">Paper Submission</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <hr style="border: 1.3px solid #021faf ">
+  <div class="latest">
+    <!-- Slideshow container -->
+    <div id="news">
+      <div>
+        
 
+        <div>
 
+          NEW UPDATES !
         </div>
         
       </div>
@@ -116,14 +162,13 @@
         border: 2px solid black !important;
         width: 50%;
         ">
-
       </div>
     </div>
   </div>
 
   <div class="about">
     <img src="ANUSANDHAN_poster_page-0001-removebg-preview.png" alt="Poster" class="poster" width="18%" min-width="18%"
-      style="margin-left: 2%;" />
+      style="margin-left: 2%;min-width:18%;" />
     <p class="para">
       Anusandhan is a fair of multidisciplinary research and innovation of
       IIT Mandi, which includes Basic Sciences (Physics, Chemistry,
@@ -500,15 +545,14 @@
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   <script>
-    var navbar = document.getElementById("navbar");
-    var menu = document.getElementById("menu");
-
-    window.onscroll = function () {
-      if (window.pageYOffset >= menu.offsetTop) {
-        navbar.classList.add("sticky");
-      }
-      else {
-        navbar.classList.remove("sticky");
+    window.onscroll = function() {myFunction()};
+    var header = document.getElementById("myHeader");
+    var sticky = header.offsetTop;
+    function myFunction() {
+      if (window.pageYOffset > sticky) {
+        header.classList.add("sticky");
+      } else {
+        header.classList.remove("sticky");
       }
     }
   </script>
