@@ -795,6 +795,16 @@ align-items: center;
   }
 }
 
+@media (min-width:800px) and (max-width:1000px){
+  .poster{
+    width:30%;
+    margin-right:17%;
+  }
+  .about>p{
+    margin-top:-4%;
+  }
+}
+
 nav.navbar.navbar-expand-lg {
   opacity: 100%;
   z-index: 3;
