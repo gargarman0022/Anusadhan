@@ -388,16 +388,16 @@
   color: white !important;
 }
 }
-@media (min-width: 1062px) and (max-width: 1233px) {
+@media (min-width: 1061px) and (max-width: 1233px) {
   ul.navbar-nav {
-    margin:0rem 2rem -1rem 0rem!important;
+    margin:0rem 0rem -1rem 0rem!important;
   }
   #carouselExampleCaptions {
     padding: 0rem 0rem 0rem 0rem;
   }
   li.nav-item {
-    margin:0rem -0.5rem 1rem 1.5rem !important;
-  }
+    margin: 0rem 0.25rem 1rem 0.5rem !important;
+}
   .navbar-brand {
     margin-left: 0%;
 }
