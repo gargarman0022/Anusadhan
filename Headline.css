@@ -1,10 +1,6 @@
 /* Slideshow container */
 .slideshow-container {
-    /* max-width: 1000px; */
     position: relative;
-    /* margin: 0rem 0em 0em -5em; */
-    /* background-color: #7986cb; */
-    /* border-radius: 20px; */
 }
   
   
@@ -12,22 +8,20 @@
   /* Hide the images by default */
   .mySlides {
     display: none;
-    padding-left:1em;
-    padding-top: 0.5em;
-    padding-bottom :0 !important;
+    padding-left: 2em !important;
+    padding-top: 0em !important;
+    padding-bottom: 0 !important;
     padding-right: 0.5em;
-    justify-content: center;
-    /* align-items: center; */
-    /* text-align: center; */
-  } 
+  
+  }
 
   @-webkit-keyframes fadeinout {
-    0%{opacity: 0.4;}
+    0%{opacity: 0;}
     100%{opacity:1;}
   }
   
   @keyframes fadeinout {
-    0%{opacity: 0.4;}
+    0%{opacity: 0;}
     100%{opacity:1;}
   }
 
@@ -39,15 +33,6 @@
     animation: fadeinout 5s;
     
   }
-  #news{
-    /* background-color:#3f51b5; */
-    background-color: #7986cb;
-    display: inline-block;
-    z-index: 2;
-    margin-left: 1%;
-    /* padding: 2em 2em 2em 2em; */
-    /* border-radius: 20px 0px 0px 20px;; */
-  }
   .links{
     color: red;
     text-decoration: none;
@@ -55,42 +40,39 @@
   .links:hover{
     color: blue;
   }
+
   #news {
-
-    margin-left: 1%;
-    padding: 0%;
-    padding-bottom: 0%;
-    padding-top:0%;
+    margin-left: 0% !important;
+    padding: 1rem 3rem 1rem 3rem;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    min-width:10%;
-    max-width:10%;
-  }
-
-  #news>div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-size: large;
+    min-width: 10%;
+    background-color: #473dc4 !important;
+    font-weight: 750 !important;
+    max-width: 10%;
   }
 
   
-  .latest{
-    justify-content: center;
+  .latest {
+    justify-content: left !important;
     display: flex;
     color: white;
     margin-bottom: 1em;
-    /* margin-top:1em; */
+    margin-top: -12em !important;
+    background-color: #6e74ddcf;
+    align-items: center;
+    font-weight: 600;
+    font-style: italic;
+    padding: 0px;
   }
   /* @keyframes fade {
     0% {opacity: 0.5}
     100% {opacity: 1}
   } */
 
-@media (max-width:450px){
+/* @media (max-width:450px){
     #news{
         min-width:30%;
         max-width:30%;
@@ -102,4 +84,4 @@
         min-width:20%;
         max-width:20%;
     }
-}
+} */
