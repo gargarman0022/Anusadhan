@@ -43,16 +43,15 @@
 
   #news {
     margin-left: 0% !important;
-    padding: 1rem 3rem 1rem 3rem;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    min-width: 10%;
+    width: 8rem;
     background-color: #473dc4 !important;
     font-weight: 750 !important;
-    max-width: 10%;
-  }
+    padding: 7px 0px;
+}
 
   
   .latest {
@@ -60,11 +59,12 @@
     display: flex;
     color: white;
     margin-bottom: 1em;
-    margin-top: -12em !important;
+    margin-top: -11em ;
     background-color: #6e74ddcf;
     align-items: center;
     font-weight: 600;
     font-style: italic;
+    font-size: 0.7rem;
     padding: 0px;
   }
   /* @keyframes fade {
