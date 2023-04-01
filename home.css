@@ -41,7 +41,7 @@
 
 
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 992px) {
   ul.navbar-nav {
     margin: 0rem 0rem 0rem 0rem;
     justify-content: center !important;
@@ -52,6 +52,9 @@
   li.nav-item {
     margin: 0.5rem 1.5rem 0rem 0.3rem;
     padding: 0.5rem 4rem 0.5rem 4rem;
+  }
+  .col-md-3{
+    margin-left: 20px !important;
   }
   .main-menu ul.navbar-nav li {
     display: inline-block;
@@ -450,7 +453,7 @@
 
 @media (min-width: 992px) and (max-width: 1062px) {
   ul.navbar-nav {
-    margin:0rem 0rem -1rem 0rem!important;
+    margin:0rem 2rem -1rem 0rem!important;
     justify-content: center;
   }
   #carouselExampleCaptions {
@@ -583,7 +586,7 @@
     margin-left: 3px;
   }
 }
-@media (max-width:767px)
+@media (max-width:768px)
 {
   .site-footer
   {
@@ -600,12 +603,31 @@
 
 @media (max-width:767px)
 {
+  .carousel-inner {
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    z-index: 100;
+    opacity: 100%;
+    /* border: 5px solid #3d3070; */
+    top: -34px !important;
+}
+.carousel-indicators {
+  display: none !important;
+}
+.carousel-control-next, .carousel-control-prev {
+  display: none !important;
+}
   .card 
   {
     margin-bottom:30px;
     margin-left: 40px;
   }
+  .latest {
+    margin-top: -3.2em !important;
 }
+}
+
 .social-icons
 {
   padding-left:0;
@@ -875,6 +897,7 @@ align-items: center;
 
 button.navbar-toggler {
   border: 3px solid #00000085;
+  margin: 0px 12px;
 }
 
 nav.navbar.navbar-expand-lg {
@@ -903,28 +926,17 @@ a.nav-link:hover{
   z-index: 100;
   opacity: 100%;
   /* border: 5px solid #3d3070; */
-  top: -12rem;
+  top: -120px;
 }
 .carousel-indicators {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
+  bottom: 140px !important;
   z-index: 120 !important;
-  display: flex;
-  justify-content: center;
-  padding: 0;
-  margin-right: 15%;
-  margin-bottom: 13rem !important;
-  margin-left: 15%;
-  list-style: none;
-  /* background-color: #ffffff57; */
 }
 .carousel-control-next,
 .carousel-control-prev {
   position: absolute;
   top: 0;
-  bottom: 0;
+  bottom: -90px !important;
   z-index: 120 !important;
   display: flex;
   align-items: center;
@@ -970,7 +982,7 @@ p {
   margin-top: 0;
   margin-bottom: 1rem;
   text-align: justify !important;
-  font-size: 1.5rem;
+  font-size: 1rem;
 
 }
 
@@ -1004,18 +1016,32 @@ p {
   list-style-type: circle;
   display: inline-block;
   margin-left: 10%;
-  font-size: 1.5rem;
+  font-size: 1rem;
   margin-top: 40px;
 }
 
 /* Gallery */
 
 div.row {
-  margin-top: 50px;
+  margin-top: 36px;
 }
+  /* Footer */
+  
+  .para{
+    font-size: 1rem !important;   
+    margin: 0px 20px;
+  }
+  .footer-logo h2 {
+    margin: 0px 0px 20px 20px !important;
+  }
 
-/* Footer */
 
-.para{
-  font-size: 1rem !important;
+
+/* Gallery */
+
+
+@media (min-width: 660px) and (max-width: 992px) {
+  .w-200{
+    display: none !important;
+  }
 }
