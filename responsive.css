@@ -359,13 +359,14 @@
 }
 @media (min-width: 1233px) and (max-width: 1253px) {
   ul.navbar-nav {
-    margin:0rem 2rem -1rem 0rem!important;
+    margin:0rem 0rem -1rem 0rem!important;
+    font-size: 18px;
   }
   #carouselExampleCaptions {
     padding: 0rem 0rem 0rem 0rem;
   }
   li.nav-item {
-    margin:0rem 1.5rem 1rem 0.5rem !important;
+    margin:0rem 0.25rem 1rem 0.5rem  !important;
   }
   .navbar-brand {
     margin-left: 0%;
@@ -373,13 +374,14 @@
 }
 @media (min-width: 1253px) and (max-width: 1290px) {
   ul.navbar-nav {
-    margin:0rem 2rem -1rem 0rem!important;
+    margin:0rem 0rem -1rem 0rem!important;
+    font-size: 18px;
   }
   #carouselExampleCaptions {
     padding: 0rem 0rem 0rem 0rem;
   }
   li.nav-item {
-    margin:0rem 1.5rem 1rem 0.5rem !important;
+    margin:0rem 0.5rem 1rem 0.5rem !important;
   }
   .navbar-brand {
     margin-left: 0%;
@@ -388,15 +390,26 @@
   color: white !important;
 }
 }
-@media (min-width: 1061px) and (max-width: 1233px) {
+
+@media (min-width: 1290px) and (max-width: 1311px) {
   ul.navbar-nav {
     margin:0rem 0rem -1rem 0rem!important;
+    font-size: 18px;
+  }
+  li.nav-item {
+    margin:0rem 0.5rem 1rem 0.5rem !important;
+  }
+}
+
+@media (min-width: 1061px) and (max-width: 1233px) {
+  ul.navbar-nav {
+    margin:0rem 0rem -1rem 0rem !important;
   }
   #carouselExampleCaptions {
     padding: 0rem 0rem 0rem 0rem;
   }
   li.nav-item {
-    margin: 0rem 0.25rem 1rem 0.5rem !important;
+    margin: 0rem 0.5rem 1rem 0rem !important;
 }
   .navbar-brand {
     margin-left: 0%;
