@@ -23,13 +23,13 @@
   }
   .card-container {
     box-shadow: 2px 2px 7px 2px #020202;
-    width: 650px;
-    height: 462px;
+    width: 614px;
+    height: 508px;
     display: flex;
   }
   .left,
   .right {
-    padding: 20px;
+    padding: 20px 50px;
     flex: 1;
   }
   .left {
@@ -164,13 +164,52 @@
     font-size: 15px;
   }
 
-  @media (max-width: 980px) {
+  @media (max-width: 472px) {
     .container{
         margin-left: 11px;
         width: 96%;
     }
     .card-container{
-        height: 80vh;
+      height: 35rem !important;
+      margin-bottom: 0px;
     }
+    
+
+.left, .right {
+    padding: 20px 25px;
+    flex: 1;
+}
+  }
+
+
+  @media (max-width: 560px) {
+    .container{
+        margin-left: 11px;
+        width: 96%;
+    }
+    .card-container{
+      height: 32rem;
+      margin-bottom: 0px;
+    }
+    
+
+.left, .right {
+    padding: 20px 25px;
+    flex: 1;
+}
   }
   
+
+
+#pay {
+  display: inline-block;
+  background-image: linear-gradient(120deg, rgb(233, 13, 13), #000000 97%);
+  color: white;
+  padding: 6px 36px;
+  margin: 1rem 3rem;
+  font-size: 20px;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
