@@ -52,6 +52,7 @@
     text-transform: uppercase;
     margin: 0.5em 0 2em 0;
     letter-spacing: 2px;
+    text-align: center !important;
   }
   .icons_speakers {
     width: 20%;
